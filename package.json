@@ -1,7 +1,8 @@
 {
   "name": "@victor-michaux/components",
-  "version": "1.0.1",
-  "main": "dist/my-component.umd.js",
+  "version": "1.0.2",
+  "main": "dist/components.umd.js",
+  "module": "dist/components.esm.js",
   "license": "MIT",
   "scripts": {
     "build": "NODE_ENV=production yarn run build:umd",

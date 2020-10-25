@@ -1,5 +1,5 @@
 {
-  "name": "comiteo-components",
+  "name": "@victor-michaux/components",
   "version": "1.0.0",
   "main": "dist/my-component.umd.js",
   "license": "MIT",
@@ -17,5 +17,8 @@
   },
   "dependencies": {
     "tailwindcss": "^1.9.6"
+  },
+  "publishConfig": { 
+    "registry": "https://npm.pkg.github.com/" 
   }
 }

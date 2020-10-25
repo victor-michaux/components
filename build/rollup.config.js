@@ -8,9 +8,9 @@ export default {
         'vue'
     ],
     output: {
-        file: 'dist/comiteo-components.umd.js',
+        file: 'dist/components.umd.js',
         format: 'umd',
-        name: 'ComiteoComponents',
+        name: 'Components',
         exports: 'named',
     },
     plugins: [

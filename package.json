@@ -1,0 +1,21 @@
+{
+  "name": "comiteo-components",
+  "version": "1.0.0",
+  "main": "dist/my-component.umd.js",
+  "license": "MIT",
+  "scripts": {
+    "build": "NODE_ENV=production yarn run build:umd",
+    "build:umd": "rollup --config build/rollup.config.js"
+  },
+  "devDependencies": {
+    "@rollup/plugin-commonjs": "^15.1.0",
+    "rollup": "^2.32.1",
+    "rollup-plugin-postcss": "^3.1.8",
+    "rollup-plugin-vue": "^5.1.9",
+    "vue": "^2.6.12",
+    "vue-template-compiler": "^2.6.12"
+  },
+  "dependencies": {
+    "tailwindcss": "^1.9.6"
+  }
+}

@@ -1,11 +1,12 @@
 {
   "name": "@victor-michaux/components",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "main": "dist/my-component.umd.js",
   "license": "MIT",
   "scripts": {
     "build": "NODE_ENV=production yarn run build:umd",
-    "build:umd": "rollup --config build/rollup.config.js"
+    "build:umd": "rollup --config build/rollup.config.js",
+    "build:es": "rollup --config build/rollup.config.js --format es"
   },
   "devDependencies": {
     "@rollup/plugin-commonjs": "^15.1.0",
